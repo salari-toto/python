@@ -1,0 +1,10 @@
+scores = list(map(int, input().split()))
+
+print("لیست نمرات:")
+print(scores)
+print("مجموع:", sum(scores))
+print("میانگین:", sum(scores) / len(scores))
+print("بیشترین نمره:", max(scores))
+print("کمترین نمره:", min(scores))
+average = sum(scores) / len(scores)
+print("میانگین:", average)
